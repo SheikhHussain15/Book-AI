@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)",
+      "Bash(bash:*)",
+      "Bash(mkdir:*)",
+      "Bash(colcon build)",
+      "Bash(git rev-parse --git-dir)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

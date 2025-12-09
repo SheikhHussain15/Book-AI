@@ -1,0 +1,23 @@
+Physical AI & Humanoid Robotics Capstone
+
+Target audience: Hackathon judges, Course instructors, and Capstone students
+Focus: The final, demonstrable result of the quarter's work—an embodied AI system operating in a simulated environment.
+
+Success criteria:
+- **Demonstrable Autonomy:** The robot must successfully execute a complete Vision-Language-Action (VLA) sequence.
+- **ROS 2 Integration:** All major subsystems (Perception, Planning, Control) must communicate via ROS 2 nodes/topics.
+- **Physics Fidelity:** The simulation environment (Gazebo/Isaac Sim) must correctly model rigid-body dynamics, gravity, and object collision.
+- **Conversational Robotics:** A natural language command ("Clean the room," "Fetch the red block") must successfully initiate the sequence.
+
+Constraints:
+- **Core Platform:** Must use **ROS 2** (rclpy/C++) and **NVIDIA Isaac Sim/ROS**.
+- **Perception System:** Must simulate sensor data (LiDAR/Depth Camera) for VSLAM/Object ID.
+- **Robot Kinematics:** Must use a bipedal (humanoid) or quadruped (proxy) model defined by **URDF/SDF**.
+- **VLA Pipeline:** Must integrate a large language model (LLM) or similar mechanism for **Cognitive Planning** (translating language to a sequence of actions).
+- **Deliverable Format:** Complete, documented ROS 2 package containing launch files, code, and a brief report (Markdown).
+
+Not building:
+- Custom development of the LLM itself (Focus is on integration, not training the LLM).
+- Building or modifying physical robot hardware (Focus is on simulation and control code for a pre-existing model).
+- A non-simulated environment (All physics and path planning will occur in Gazebo/Isaac Sim).
+- Comprehensive hardware evaluation (The specs are assumed and used, not debated).

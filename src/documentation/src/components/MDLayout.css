@@ -1,0 +1,16 @@
+/* MDLayout Styling */
+.md-layout-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* background-color: rgba(255, 255, 255, 0.05); */
+}
+
+.md-content-wrapper {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Rest of the styling same as before for header, badges, etc. */
+/* Copy all the previous CSS classes here from earlier message */
+/* Or link to the main custom.css */
