@@ -241,7 +241,7 @@ export default function Home() {
               <div className={styles.ctaButtons}>
                 <Link
                   className={clsx('button button--primary button--lg', styles.primaryBtn)}
-                  to="/docs">
+                  to="/docs/intro">
                   <span className={styles.btnIcon}>📚</span>
                   Explore All Chapters
                 </Link>
