@@ -8,4 +8,6 @@ The project will eventually include:
 - An Urdu translation module.
 - Simulation-based robotics examples.
 "# Physical-AI-book" 
-"# humonoid-Ai-book" 
+"# humonoid-Ai-book"
+
+Note : This was totally made by Claude code.
